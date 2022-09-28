@@ -9,10 +9,10 @@ A proxy tunnel using libcurl, fork https://repo.or.cz/w/curltunnel.git
 
 ## ubuntu
 
-Choose one mode to install libcurl, depending on whether you want to use for SSL:
-	- gnutls,
-	- openssl,
-	- nss,
+Choose one mode to install libcurl, depending on which we want to use for SSL:
++ gnutls,
++ openssl,
++ nss,
 
 ```bash
 	$ sudo apt-get install libcurl4-gnutls-dev
