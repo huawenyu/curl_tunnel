@@ -250,7 +250,7 @@ int main(int argc, char *argv[])
 	curl_easy_setopt(hnd, CURLOPT_HTTPPROXYTUNNEL, 1);
 	curl_easy_setopt(hnd, CURLOPT_CONNECT_ONLY, 1); // Do not do the transfer - only connect to host
 
-	if(args_info.verbose_given)
+	if (args_info.verbose_given)
 		curl_easy_setopt(hnd, CURLOPT_VERBOSE, 1);
 
 	ret = curl_easy_perform(hnd);
